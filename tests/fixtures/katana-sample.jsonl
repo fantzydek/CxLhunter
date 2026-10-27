@@ -1,0 +1,5 @@
+{"timestamp":"2025-11-01T10:00:00Z","request":{"url":"https://target.example.com/login","method":"GET","source":"crawl"},"response":{"status_code":200}}
+{"timestamp":"2025-11-01T10:00:01Z","request":{"url":"https://target.example.com/api/users","method":"POST"},"response":{"status_code":403}}
+https://target.example.com/plain-link
+  [GET] https://target.example.com/prefixed
+no-url-in-this-line

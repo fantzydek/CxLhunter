@@ -1,0 +1,5 @@
+{"host":"target.example.com","ttl":300,"resolver":["1.1.1.1"],"a":["93.184.216.34"],"status":true}
+{"host":"api.target.example.com","status":true,"data":{"a":["93.184.216.35"],"ttl":120}}
+{"host":"v6.target.example.com","status":true,"data":{"aaaa":["2606:4700::1111"],"ttl":60}}
+broken-dns-line
+{"host":"nx.target.example.com","status":false,"data":{}}

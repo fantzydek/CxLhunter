@@ -1,0 +1,4 @@
+{"timestamp":"2025-11-01T10:00:00Z","hash":"abc","url":"https://target.example.com","input":"target.example.com","port":"443","scheme":"https","path":"/","webserver":"nginx/1.18.0","content_type":"text/html","method":"GET","host":"target.example.com","time":"120ms","a":["93.184.216.34"],"status_code":200,"content_length":1256,"title":"Home","tech":["WordPress","Nginx"]}
+{"timestamp":"2025-11-01T10:00:05Z","url":"http://api.target.example.com","input":"api.target.example.com","port":"80","scheme":"http","path":"/v1","webserver":"cloudflare","method":"GET","host":"api.target.example.com","a":["93.184.216.35"],"status_code":404,"content_length":0,"title":""}
+not a json line
+{"url":"https://kebab-case.example.com","status-code":301,"location":"https://kebab-case.example.com/login"}

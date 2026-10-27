@@ -1,0 +1,35 @@
+{
+  "name": "cxl-bug-bounty-scanner",
+  "version": "1.5.0",
+  "description": "Telegram-orchestrated, non-destructive web security scanner for explicitly authorized bug bounty targets. Designed for Termux (Android ARM64). Integrates Nuclei, Subfinder, DNSx, HTTPx, Katana via official CLIs, with OWASP Top 10:2025 coverage mapping and intelligent per-vulnerability-type report generation.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node src/index.js --self-test",
+    "tools:check": "node src/index.js --tools-check",
+    "db:migrate": "node src/index.js --db-migrate"
+  },
+  "keywords": [
+    "bug-bounty",
+    "security",
+    "telegram-bot",
+    "nuclei",
+    "subfinder",
+    "httpx",
+    "katana",
+    "dnsx",
+    "owasp",
+    "termux"
+  ],
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  }
+}

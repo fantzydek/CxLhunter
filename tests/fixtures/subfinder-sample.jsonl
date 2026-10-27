@@ -1,0 +1,5 @@
+{"host":"api.target.example.com","source":"crtsh"}
+{"host":"dev.target.example.com","source":"hackertarget"}
+{"host":"api.target.example.com","source":"virustotal"}
+broken-json-line
+{"hostname":"staging.target.example.com","source":"rapiddns"}
